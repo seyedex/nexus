@@ -28,6 +28,5 @@ public class Spell {
     private List<Double> range;
     private String rangeBurn;
     private Image image;
-    private String resource;
 
 }
