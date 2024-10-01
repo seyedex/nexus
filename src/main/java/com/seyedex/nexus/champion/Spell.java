@@ -21,8 +21,8 @@ public class Spell {
     private String cooldownBurn;
     private List<Double> cost;
     private String costBurn;
-    private String effect;
-    private String effectBurn;
+    private List<List<String>> effect;
+    private List<String> effectBurn;
     private String costType;
     private String maxAmmo;
     private List<Double> range;

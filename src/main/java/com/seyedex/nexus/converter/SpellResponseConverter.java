@@ -22,6 +22,8 @@ public class SpellResponseConverter implements Converter<SpellResponse, Spell> {
                 .cooldownBurn(spellResponse.getCooldownBurn())
                 .cost(spellResponse.getCost())
                 .costBurn(spellResponse.getCostBurn())
+                .effect(spellResponse.getEffect())
+                .effectBurn(spellResponse.getEffectBurn())
                 .costType(spellResponse.getCostType())
                 .maxAmmo(spellResponse.getMaxammo())
                 .range(spellResponse.getRange())

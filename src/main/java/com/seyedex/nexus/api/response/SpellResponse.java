@@ -18,8 +18,8 @@ public class SpellResponse {
     private String cooldownBurn;
     private List<Double> cost;
     private String costBurn;
-    private String effect;
-    private String effectBurn;
+    private List<List<String>> effect;
+    private List<String> effectBurn;
     private String costType;
     private String maxammo;
     private List<Double> range;
